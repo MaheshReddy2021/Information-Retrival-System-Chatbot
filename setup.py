@@ -1,16 +1,11 @@
-import setuptools
-from setuptools import find_packages,setup
+from setuptools import find_packages, setup
 
-setuptools.setup(
-    
+setup(
     name = 'Generative AI project',
-    version ='0.0.0',
-    author='MaheshReddy',
-    author_email='johnny1603267@gmail.com',
-    packages=find_packages(),
-    install_requires=[]
-  
-  
-  
-    
+    version= '0.0.0',
+    author= 'Boktiar Ahmed Bappy',
+    author_email= 'entbappy73@gmail.com',
+    packages= find_packages(),
+    install_requires = []
+
 )
